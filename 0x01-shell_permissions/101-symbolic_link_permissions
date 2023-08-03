@@ -1,2 +1,2 @@
 #!/bin/bash
-[ -L "_hello" ] && chown vincent:staff "_hello"
+if [ -L "_hello" ]; then chown vincent:staff "_hello"; fi
