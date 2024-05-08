@@ -1,0 +1,66 @@
+[34m
+* Datadog Agent 7 install script v1.31.6
+[0m
+[34m
+* Installing apt-transport-https, curl and gnupg
+[0m
+Hit:1 http://repo.mysql.com/apt/ubuntu bionic InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu focal InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:4 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:5 http://ppa.launchpad.net/brightbox/ruby-ng/ubuntu focal InRelease
+Hit:6 https://deb.nodesource.com/node_14.x focal InRelease
+Hit:7 http://archive.ubuntu.com/ubuntu focal-backports InRelease
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+curl is already the newest version (7.68.0-1ubuntu2.22).
+gnupg is already the newest version (2.2.19-3ubuntu2.2).
+gnupg set to manually installed.
+The following packages were automatically installed and are no longer required:
+  apport apport-symptoms bluez crda dns-root-data dnsmasq-base iw
+  keyboard-configuration kmod libappindicator3-1 libbluetooth3
+  libdata-dump-perl libdbusmenu-glib4 libdbusmenu-gtk3-4 libencode-locale-perl
+  libfile-basedir-perl libfile-desktopentry-perl libfile-listing-perl
+  libfile-mimeinfo-perl libfont-afm-perl libfprint-2-2 libgee-0.8-2
+  libgssdp-1.2-0 libgupnp-1.2-0 libgupnp-av-1.0-2 libgupnp-dlna-2.0-3
+  libhtml-form-perl libhtml-format-perl libhtml-parser-perl
+  libhtml-tagset-perl libhtml-tree-perl libhttp-cookies-perl
+  libhttp-daemon-perl libhttp-date-perl libhttp-message-perl
+  libhttp-negotiate-perl libio-html-perl libio-socket-ssl-perl
+  libio-stringy-perl libipc-system-simple-perl liblwp-mediatypes-perl
+  liblwp-protocol-https-perl libmailtools-perl libmbim-glib4 libmbim-proxy
+  libmediaart-2.0-0 libndp0 libnet-dbus-perl libnet-http-perl
+  libnet-smtp-ssl-perl libnet-ssleay-perl libnewt0.52 libnl-3-200
+  libnl-genl-3-200 libnl-route-3-200 libpcsclite1 libqmi-glib5 libqmi-proxy
+  libteamdctl0 libtie-ixhash-perl libtimedate-perl libtry-tiny-perl
+  liburi-perl libwww-perl libwww-robotrules-perl libx11-protocol-perl
+  libxcb-xv0 libxml-parser-perl libxml-twig-perl libxml-xpathengine-perl
+  libxvmc1 perl-openssl-defaults python3-apport python3-blinker
+  python3-cryptography python3-entrypoints python3-httplib2 python3-jwt
+  python3-keyring python3-launchpadlib python3-lazr.restfulclient
+  python3-lazr.uri python3-oauthlib python3-problem-report
+  python3-secretstorage python3-simplejson python3-wadllib wireless-regdb
+Use 'apt autoremove' to remove them.
+The following NEW packages will be installed:
+  apt-transport-https
+0 upgraded, 1 newly installed, 0 to remove and 18 not upgraded.
+1 not fully installed or removed.
+Need to get 15.9 kB of archives.
+After this operation, 162 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu focal/main amd64 libxvmc1 amd64 2:1.0.12-2 [14.2 kB]
+Get:2 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 apt-transport-https all 2.0.10 [1,704 B]
+Fetched 15.9 kB in 0s (78.1 kB/s)
+Selecting previously unselected package apt-transport-https.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 94050 files and directories currently installed.)
+Preparing to unpack .../apt-transport-https_2.0.10_all.deb ...
+Unpacking apt-transport-https (2.0.10) ...
+Setting up apt-transport-https (2.0.10) ...
+dpkg: error processing package libxvmc1:amd64 (--configure):
+ package is in a very bad inconsistent state; you should
+ reinstall it before attempting configuration
+Errors were encountered while processing:
+ libxvmc1:amd64
+debconf: delaying package configuration, since apt-utils is not installed
+E: Sub-process /usr/bin/dpkg returned an error code (1)
