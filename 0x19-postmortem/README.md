@@ -1,12 +1,16 @@
 0x19-postmortem
 
 Postmortem: The Mystery of the Phantom Traffic
+
 ![Screenshot 2024-05-07 222530](https://github.com/khloud54/alx-system_engineering-devops/assets/138794478/bf355f28-030e-4a7e-9c4c-cff6cf8ef6c7)
+
 Issue Summary:
  Duration: May 9, 2024, 3:00 PM - May 9, 2024, 5:30 PM (UTC-4)
  Impact: Unexplained spike in network traffic causing service instability. 70% of users experienced intermittent connectivity issues.
 Root Cause: DDoS attack targeting the company's web servers.
+
 ![Screenshot 2024-05-09 142748](https://github.com/khloud54/alx-system_engineering-devops/assets/138794478/0a3c17b3-8561-4365-aad3-d59f2c5db28f)
+
 Timeline:
 3:00 PM: Issue detected when network monitoring system flagged unusually high traffic volumes.
 3:05 PM: DevOps team alerted of increased server load and network congestion.
@@ -22,7 +26,9 @@ Timeline:
 Root Cause and Resolution:
 Root Cause: The issue was caused by a Distributed Denial of Service (DDoS) attack targeting the company's web servers, resulting in network congestion and service instability.
 Resolution: The Security team implemented DDoS mitigation measures to filter out malicious traffic and restore service stability.
+
 ![Screenshot 2024-05-09 133844](https://github.com/khloud54/alx-system_engineering-devops/assets/138794478/99686ebe-7a3d-447f-9733-71f8239400cf)
+
 Corrective and Preventative Measures:
 Immediate Response:
 Mitigated the DDoS attack by implementing rate limiting and IP blocking rules on network firewalls.
@@ -43,4 +49,6 @@ Post-incident analysis and reflection are integral to refining our security post
 Regularly conducting tabletop exercises and simulations can help prepare teams for handling similar incidents more efficiently.
 Conclusion:
 The "Phantom Traffic" incident served as a stark reminder of the evolving threat landscape and the importance of robust security measures. By promptly addressing the root cause and implementing preventative measures, we have strengthened our defences and mitigated the impact of potential future attacks. Moving forward, we remain committed to vigilance, adaptation, and continuous improvement to safeguard our systems and uphold the trust of our users.
+
 ![Screenshot 2024-05-09 134810](https://github.com/khloud54/alx-system_engineering-devops/assets/138794478/86404307-da1d-4b40-a85b-36534d23d864)
+
